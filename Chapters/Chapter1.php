@@ -16,6 +16,7 @@ class Chapter1 extends Chapter
      */
     public function declareAVariable()
     {
+    	$anyVariable = 1;
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -30,6 +31,7 @@ class Chapter1 extends Chapter
      */
     public function declareAnInt()
     {
+	$shouldBeAnInt = 1;
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -44,6 +46,7 @@ class Chapter1 extends Chapter
      */
     public function declareAFloat()
     {
+	$shouldBeAFloat = 2.2;
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -58,6 +61,7 @@ class Chapter1 extends Chapter
      */
     public function declareABoolean()
     {
+	$shouldBeABoolean = true;
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -72,6 +76,7 @@ class Chapter1 extends Chapter
      */
     public function setNull($shouldBeNull)
     {
+	$shouldBeNull = null;
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -86,6 +91,7 @@ class Chapter1 extends Chapter
      */
     public function variableCasting($becomesABoolean)
     {
+	$becomesABoolean = (bool)$becomesABoolean;
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -101,7 +107,7 @@ class Chapter1 extends Chapter
     public function variableAssignment($alreadySet)
     {
         // CODE HERE
-
+	$copiedValue = $alreadySet;
         // DO NOT EDIT BELOW
         return $copiedValue;
     }
@@ -115,7 +121,7 @@ class Chapter1 extends Chapter
     public function declaringConstants()
     {
         // CODE HERE
-
+	define("SAMPLE_CONSTANT", "testing");
         // DO NOT EDIT BELOW
         if (SAMPLE_CONSTANT !== 'testing') {
             throw new \Exception('Constants SAMPLE_CONSTANT must equal \'testing\'');

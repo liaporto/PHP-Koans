@@ -17,6 +17,7 @@ class Chapter2 extends Chapter
      */
     public function addition($valueOne, $valueTwo)
     {
+	$sum = $valueOne + $valueTwo;
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -33,6 +34,7 @@ class Chapter2 extends Chapter
      */
     public function subtraction($valueOne, $valueTwo)
     {
+	$difference = $valueOne - $valueTwo;
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -48,6 +50,7 @@ class Chapter2 extends Chapter
      */
     public function multiplication($valueOne)
     {
+	$fourTimes = $valueOne * 4;
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -62,6 +65,7 @@ class Chapter2 extends Chapter
      */
     public function division($valueOne)
     {
+	$oneFourth = $valueOne / 4;
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -77,6 +81,7 @@ class Chapter2 extends Chapter
      */
     public function modulus($valueOne)
     {
+	$remainder = $valueOne % 5;
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -92,6 +97,8 @@ class Chapter2 extends Chapter
      */
     public function rounding($valueOne, $valueTwo)
     {
+	$valueOne = round($valueOne);
+	$valueTwo = round($valueTwo, 2);
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -107,6 +114,8 @@ class Chapter2 extends Chapter
      */
     public function roundingUpAndDown($valueOne, $valueTwo)
     {
+	$valueOne = round($valueOne, , PHP_ROUND_HALF_UP);
+	$valueTwo = round($valueOne, , PHP_ROUND_HALF_DOWN);
         // CODE HERE
 
         // DO NOT EDIT BELOW
@@ -121,6 +130,8 @@ class Chapter2 extends Chapter
      */
     public function incrementAndDecrement($valueOne, $valueTwo)
     {
+	$valueOne++;
+	$valueTwo--;
         // CODE HERE
 
         // DO NOT EDIT BELOW
