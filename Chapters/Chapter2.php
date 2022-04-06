@@ -114,8 +114,8 @@ class Chapter2 extends Chapter
      */
     public function roundingUpAndDown($valueOne, $valueTwo)
     {
-	$valueOne = round($valueOne, , PHP_ROUND_HALF_UP);
-	$valueTwo = round($valueOne, , PHP_ROUND_HALF_DOWN);
+	$valueOne = ceil($valueOne);
+	$valueTwo = floor($valueTwo);
         // CODE HERE
 
         // DO NOT EDIT BELOW
